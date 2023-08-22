@@ -28,9 +28,13 @@
     z-index: 99;
     
     align-items: center;
-    transition: 0.3s ease-in-out;
+    
+    transform: translateY(-50%);
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
 
 }
+
 
  .logo img{
     width: 150px;
@@ -55,7 +59,7 @@
 .left-nav ul li a{
     color: rgb(153,153,153);
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 .left-nav ul li a:hover{
@@ -129,10 +133,9 @@
     font-size: 70px;
     line-height: 3rem;
     margin-bottom: 2.3rem;
-    font-weight:bolder;
+    font-weight:900;
     overflow-wrap: normal;
-    width: 
-    400px;
+    
     font-family: Inter, sans-serif !important;
 }
 p{
@@ -222,7 +225,10 @@ p{
         width: 70%;
         height: 500px;
         background-color:black; 
-       
+        transition-property: all;
+        transition-duration: 3s;
+        transition-delay: 2s;
+        transition-timing-function: ease;
         
     }
 
@@ -240,6 +246,8 @@ p{
         list-style: none;
         border-bottom: 1px solid white;
         margin-top: 1rem;
+        margin-bottom: 2rem;
+        
     }
     .nav-small ul li a{
         color: white;
@@ -252,19 +260,26 @@ p{
     }
     .nav-small ul{
         margin-bottom: 1rem;
+        padding-left: none;
+        height: auto;
+        
     }
     .nav-small ul li{
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
         width: 90%;
+        
     }
     .nav-small ul li a{
         text-decoration: none;
+        color: rgb(153,153,153);
     }
     .show-nav{
 
         display: block;
         z-index: 99;
-        transition: 0.3s ease-in-out;
+        
+        
+
     }
     .left-nav ul{
         margin-left:0;
