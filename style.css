@@ -98,7 +98,7 @@
 
 .content{
     margin-left: 2.3rem;
-    margin-top:7rem;
+    margin-top:7.5rem;
     color: white;
     padding: 2rem;
     
@@ -203,6 +203,7 @@ p{
         display: block;
         top:10px;
         width: 70%;
+        height: 500px;
         background-color:black; 
        
         
@@ -221,6 +222,7 @@ p{
     .nav-small ul li{
         list-style: none;
         border-bottom: 1px solid white;
+        margin-top: 1rem;
     }
     .nav-small ul li a{
         color: white;
@@ -275,7 +277,8 @@ p{
     }
     .content-section{
         width: 100%;
-        margin: auto;
+        margin-left:0;
+        
     }
     #btn1{
         width: 180px;
