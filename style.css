@@ -265,6 +265,7 @@ p{
 
         display: block;
         z-index: 99;
+        transition: 0.3s ease-in-out;
     }
     .left-nav ul{
         margin-left:0;
@@ -297,6 +298,9 @@ p{
         width: 100%;
         margin-left:0;
         
+    }
+    .content{
+        margin-left: 0%;
     }
     #btn1{
         width: 180px;
